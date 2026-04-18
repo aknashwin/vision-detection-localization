@@ -27,6 +27,8 @@ Designed to simulate industrial use cases such as manufacturing inspection, ware
 - **OpenCV** — Image processing and visualization
 
 ## 📁 Project Structure
+
+```
 vision-detection-localization/
 │
 ├── main.py               # Entry point — run detection on image or webcam
@@ -35,6 +37,7 @@ vision-detection-localization/
 ├── requirements.txt      # Project dependencies
 ├── sample_images/        # Test images
 └── results/              # Output images with detections
+```
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
@@ -75,11 +78,13 @@ python main.py --mode webcam
 | `--confidence` | `0.5` | Detection confidence threshold (0-1) |
 
 ## 📊 Example Output
-Detections found: 10
 
-car | Confidence: 0.78 | BBox: [100, 188, 144, 220]
-car | Confidence: 0.77 | BBox: [332, 168, 358, 190]
-car | Confidence: 0.77 | BBox: [323, 218, 378, 262]
+```
+Detections found: 10
+  - car | Confidence: 0.78 | BBox: [100, 188, 144, 220]
+  - car | Confidence: 0.77 | BBox: [332, 168, 358, 190]
+  - car | Confidence: 0.77 | BBox: [323, 218, 378, 262]
+```
 
 ## 🔮 Future Improvements
 
